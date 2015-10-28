@@ -51,7 +51,13 @@ var Location = React.createClass({
       .openOn(map);
 
       map.setView(viewLocation, 15);
-
+      
+      // Disable drag and zoom handlers. (as per #296 https://github.com/mozilla/2015.mozillafestival.org/issues/296)
+      map.dragging.disable();
+      map.touchZoom.disable();
+      map.doubleClickZoom.disable();
+      map.scrollWheelZoom.disable();
+      
       var marker = L.marker(pinLocation, {
         icon: L.mapbox.marker.icon({
             'marker-size': 'large',
@@ -61,6 +67,7 @@ var Location = React.createClass({
       marker.bindPopup(popup);
     });
   },
+  
   render: function() {
     return (
       <div className="location-page">
