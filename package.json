@@ -14,7 +14,9 @@
     "watch:js": "npm run build:js -- --watch",
     "watch:css": "autoless --autoprefix '> 1%, last 2 versions' less public",
     "postinstall": "mkdirp last && node build.js",
-    "server": "node app.js"
+    "server": "node app.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "autoless": "0.1.7",
@@ -44,9 +46,11 @@
     "style-loader": "0.12.3",
     "url-loader": "0.5.6",
     "webpack": "1.9.9",
-    "whatwg-fetch": "0.9.0"
+    "whatwg-fetch": "0.9.0",
+    "snyk": "^1.189.0"
   },
   "engines": {
     "node": "~0.12.4"
-  }
+  },
+  "snyk": true
 }
