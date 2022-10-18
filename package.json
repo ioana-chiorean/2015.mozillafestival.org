@@ -36,7 +36,7 @@
     "mkdirp": "^1.0.0",
     "moment": "^2.10.3",
     "node-libs-browser": "0.5.2",
-    "npm-run-all": "1.2.4",
+    "npm-run-all": "1.2.12",
     "react": "0.13.2",
     "react-fa": "3.2.0",
     "react-formation": "^0.3.1",
