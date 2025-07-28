@@ -21,7 +21,7 @@
   "dependencies": {
     "autoless": "0.1.7",
     "body-parser": "1.18.2",
-    "compression": "1.7.1",
+    "compression": "1.8.1",
     "cross-spawn": "0.2.9",
     "css-loader": "0.14.2",
     "express": "3.4.5",
