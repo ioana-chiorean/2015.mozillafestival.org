@@ -35,7 +35,7 @@
     "mapbox.js": "2.1.5",
     "mkdirp": "^1.0.0",
     "moment": "^2.10.3",
-    "node-libs-browser": "0.5.2",
+    "node-libs-browser": "1.0.0",
     "npm-run-all": "1.2.4",
     "react": "0.13.2",
     "react-fa": "3.2.0",
