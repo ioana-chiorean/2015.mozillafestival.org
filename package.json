@@ -28,7 +28,7 @@
     "express-rate-limit": "1.0.2",
     "extract-text-webpack-plugin": "0.8.0",
     "file-loader": "0.8.4",
-    "google-spreadsheet": "^3.0.0",
+    "google-spreadsheet": "^4.0.0",
     "habitat": "0.4.1",
     "json-loader": "0.5.1",
     "jsx-loader": "0.13.2",
@@ -45,7 +45,7 @@
     "request": "2.55.0",
     "style-loader": "0.12.3",
     "url-loader": "0.5.6",
-    "webpack": "4.26.0",
+    "webpack": "5.98.0",
     "whatwg-fetch": "0.9.0",
     "snyk": "^1.316.1"
   },
